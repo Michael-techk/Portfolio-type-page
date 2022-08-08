@@ -1,0 +1,38 @@
+@import 'scss/variables';
+@import 'scss/fonts';
+@import 'scss/menu';
+@import 'scss/slider';
+@import 'scss/tiles';
+@import 'scss/about2';
+@import 'scss/about';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    position: relative;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    //;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: 100px;
+    background: #000;
+    color: rgba(255, 255, 255, 0.507);
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+    z-index: 1;
+}
